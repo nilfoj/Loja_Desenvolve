@@ -1,0 +1,123 @@
+main {
+    background-color: var(--color-bg-pri);
+    font-family: var(--text-font-pri);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 24px;
+   
+  }
+  
+  .barra-pesquisa {
+    background-color: transparent;
+    border: 2px solid var(--color-bg-qui);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 24px;
+    width: 100%;
+  }
+  
+  .barra-pesquisa::placeholder {
+    background: url(../img/icon/icon_pesquisa.svg) no-repeat;
+    background-position: right;
+    color: var(--color-bg-sec);
+    padding: 4px;  
+  }
+
+  .localizacao {
+    display: flex;
+    align-items: center;
+    padding-bottom: 24px;
+  }
+  
+  .localizacao > img {
+    padding-right: 8px;
+    height: 14px;
+  }
+
+  .localizacao > a {
+    text-decoration: none;
+    color: var(--text-font-ter);
+    font-size: 12px;
+  }
+
+
+  /*Slider!*/
+
+  section.slider{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0 !important;
+    overflow: hidden;
+  }
+
+.slider-content{
+  width: 400%;
+  height: auto;
+  display: flex;
+}
+
+.slider-content input, .img-mobile{
+  display: none; 
+}
+
+.slide-box{
+  width: 25%;
+  height: auto;
+  position: relative;
+  text-align: center;
+}
+
+.slide-box img{
+  width: 100%;
+}
+
+.nav-manual, .nav-auto{
+  position: absolute;
+  width: 100%;
+  margin-top: 36%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-manual .manual-btn, .nav-auto div{
+  border: 1px solid var(--color-bg-sec);
+  padding: 5px;
+  border-radius: 50%;
+  cursor:pointer;
+  transition: 0.2s;
+}
+
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+  margin-right: 16px;
+}
+
+.nav.manual .manual-btn:hover{
+  background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

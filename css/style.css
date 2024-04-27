@@ -1,0 +1,27 @@
+@import url(header.css);
+@import url(main.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+:root{
+    
+    --color-bg-pri: #F3F3F3;
+    --color-bg-sec: #F38C8F;
+    --color-bg-tec: #fff;
+    --color-bg-qua: #f2f2f2;
+    --color-bg-qui: #818181; 
+
+    --color-text-pri: #F38C8F;
+    --color-text-sec: #fff;
+    --color-text-ter:#818181;
+    --color-text-qua: #000; 
+
+    --text-font-pri: "Inter", sans-serif;
+
+}
+
+
+body{
+    /*margin: 0px 366px;*/
+    background-color: var(--color-bg-qua);
+}

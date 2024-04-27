@@ -1,0 +1,115 @@
+/* Post  */
+
+header {
+    font-family: var(--text-font-pri);
+    display: block;
+    text-align: center;
+    background-color:var(--color-bg-pri);
+  }
+  
+  .post {
+    height: 64px;
+    color: var(--color-text-sec);
+    background-color: var(--color-bg-sec);
+    margin: 0 auto; /* Centralizar horizontalmente */
+    text-align: center; /* Centralizar texto dentro do post (opcional) */
+    line-height: 64px;
+  }
+  
+ #app {
+    /* ... seus estilos para #app ... */
+  }
+  
+  #frete {
+    display: none;
+    justify-content: center; /* Alinhar horizontalmente no centro */
+  }
+  
+  #app20, #frete {
+    display: block; /* Exibir os textos como blocos */
+  }
+  
+
+
+/* Menu-hamburguer  */
+
+.cabecalho{
+  background-color: var(--color-bg-pri);
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.container_imagem_menu{
+  padding: 8px 8px 8px 0px;
+  margin: 0%;
+}
+
+.container_imagem{
+  padding: 8px;
+}
+
+li{
+  display: flex;
+  align-items: center;
+}
+
+span{
+  margin-left: 8px
+}
+
+.lista-menu{
+  display: none;
+  position: absolute; 
+  top: 100%;
+  width: 66vw;
+}
+
+.container_botao:checked ~ .lista-menu{
+  display: block;
+}
+
+.lista-menu_login{
+  text-align: left;
+  background-color: var(--color-bg-pri);
+  padding: 16px;
+}
+
+.lista-menu_texto{
+  text-align: left;
+  background-color: var(--color-bg-pri);
+  padding: 16px;
+  font-size: 12px;
+}
+
+.link_login{
+  padding-left: 8px;
+  font-weight: 600;
+}
+
+.lista-menu_titulo_img{
+  padding-right: 4px;
+}
+
+.lista-menu_titulo,
+.lista-menu_item {
+  padding: 1rem;
+  background-color: var(--color-bg-pri);
+  text-align: left;
+}
+
+.lista-menu_titulo{
+  color: var(--color-text-qua);
+}
+
+.lista-menu_link{
+  color: var(--color-text-qua);
+  text-decoration: none;
+}
+
+.container_botao{
+  display: none;
+}
+
