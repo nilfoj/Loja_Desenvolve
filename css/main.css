@@ -5,43 +5,9 @@ main {
     flex-direction: column;
     align-items: center;
     margin: 0px 24px;
-   
   }
   
-  .barra-pesquisa {
-    background-color: transparent;
-    border: 2px solid var(--color-bg-qui);
-    border-radius: 8px;
-    padding: 16px;
-    margin-bottom: 24px;
-    width: 100%;
-  }
   
-  .barra-pesquisa::placeholder {
-    background: url(../img/icon/icon_pesquisa.svg) no-repeat;
-    background-position: right;
-    color: var(--color-bg-sec);
-    padding: 4px;  
-  }
-
-  .localizacao {
-    display: flex;
-    align-items: center;
-    padding-bottom: 24px;
-  }
-  
-  .localizacao > img {
-    padding-right: 8px;
-    height: 14px;
-  }
-
-  .localizacao > a {
-    text-decoration: none;
-    color: var(--text-font-ter);
-    font-size: 12px;
-  }
-
-
   /*Slider!*/
 
   section.slider{
