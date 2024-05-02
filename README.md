@@ -14,6 +14,13 @@ O primeiro projeto da trilha de estudos Desenvolve Boticário, com o objetivo de
 
 O projeto segue em desenvolvimento e logo mais será disponibilizado o link de acesso.
 
+<h3>Preview</h3>
+
+
+
+![image](https://github.com/nilfoj/Loja_Desenvolve/blob/main/aprenseta%C3%A7%C3%A3o_git/P%C3%A1gina%20Inicial%201.png?raw=true)
+). ![Imagem_01](https://github.com/nilfoj/Loja_Desenvolve/blob/main/aprenseta%C3%A7%C3%A3o_git/P%C3%A1gina%20Inicial%20-%20Menu%201.png?raw=true).
+
 
 
 #
