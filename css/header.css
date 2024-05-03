@@ -112,7 +112,7 @@ li{
 
 .barra-pesquisa {
   background-color: transparent;
-  width: 360px;
+  width: 95%;
   border: 0.125rem solid var(--color-bg-qui);
   border-radius: 0.5rem;
   padding: 1rem;

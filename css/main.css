@@ -1,28 +1,27 @@
 main {
-    background-color: var(--color-bg-pri);
-    font-family: var(--text-font-pri);
-  }
-
-
-/* Banner */
+  background-color:var(--color-bg-pri);
+  font-family: var(--text-font-pri);
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
 
 .banner-container {
-  display: flex;
-  justify-content: center;
-  margin: 16px 0px;
-  position: relative; 
+  height: auto;
+  margin: 1rem;
+}
+
+.banner-imagem {
   width: 100%;
 }
-
-.banner-image {
-  position: absolute; 
-  max-width: 100%; 
-  transition: 0.5s ease-in-out; 
-  opacity: 0;
-}
-
-.banner-image.active {
-  opacity: 1;
-}
-
  
+h1 {
+  margin: 0rem 2rem;
+  text-decoration:underline;
+  color: var(--color-text-pri);
+  display: flex;
+  font-weight: 700;
+  text-align: left;
+
+}

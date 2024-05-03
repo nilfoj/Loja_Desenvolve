@@ -16,23 +16,4 @@ function atualizarBanner() {
     mostrarTexto2 = !mostrarTexto2;
 }
 
-
-// Banner_02
-
 setInterval(atualizarBanner, 2000); /* Alterar o texto a cada 5 segundos */
-
-const imagens = document.querySelectorAll('.banner-image');
-const intervalo = 5000; // Tempo em milissegundos (5 segundos)
-let indiceAtual = 0;
-
-function mostrarImagem(indice) {
-    imagens.forEach(imagem => imagem.classList.remove('active'));
-    imagens[indice].classList.add('active');
-}
-
-mostrarImagem(indiceAtual);
-
-setInterval(() => {
-    indiceAtual = (indiceAtual + 1) % imagens.length;
-    mostrarImagem(indiceAtual);
-}, intervalo);
