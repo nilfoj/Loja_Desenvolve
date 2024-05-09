@@ -17,11 +17,13 @@ main {
 }
  
 h1 {
-  margin: 0rem 2rem;
+  margin: 2.5rem 2rem 0rem 2rem;
   text-decoration:underline;
   color: var(--color-text-pri);
   display: flex;
   font-weight: 700;
   text-align: left;
-
+  text-decoration-thickness: 4px;
+  text-underline-offset: 6px;
+  text-decoration-color: var(--color-bg-sex);
 }

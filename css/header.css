@@ -15,17 +15,17 @@ header {
     color: var(--color-text-sec);
     background-color: var(--color-bg-sec);
     margin: 0%;
-    text-align: center; /* Centralizar texto dentro do post (opcional) */
+    text-align: center;
     line-height:3.5rem;
 }
   
 #frete {
     display: none;
-    justify-content: center; /* Alinhar horizontalmente no centro */
+    justify-content: center; 
 }
   
 #app20, #frete {
-    display: block; /* Exibir os textos como blocos */
+    display: block; 
 }
 
 

@@ -1,0 +1,40 @@
+footer {
+    font-family: var(--text-font-pri);
+    background-color: var(--color-bg-sec);
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column; 
+}
+
+.rodape-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.coluna {
+    flex: 1;
+}
+
+ul {
+    list-style: none;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+li {
+    margin-bottom: 1rem;
+    padding: 0.2rem;
+}
+
+a {
+    color: var(--color-text-sec);
+    text-decoration: none;
+}
+
+.direitos-container {
+    font-size: 0.8em;
+    background-color: var(--color-bg-set);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
