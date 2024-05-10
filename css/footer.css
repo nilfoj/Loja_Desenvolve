@@ -1,7 +1,7 @@
 footer {
     font-family: var(--text-font-pri);
     background-color: var(--color-bg-sec);
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column; 
 }

@@ -57,8 +57,8 @@ li{
 .lista-menu{
   display: none;
   position: absolute; 
+  background-color: var(--color-bg-qua);
   top: 100%;
-  z-index: 10;
 }
 
 .container_botao:checked ~ .lista-menu{
@@ -79,6 +79,7 @@ li{
 }
 
 .link_login{
+  color: var(--color-text-pri);
   padding-left: 0.5rem;
   font-weight: 600;
 }
@@ -90,6 +91,7 @@ li{
 .lista-menu_titulo,
 .lista-menu_item {
   padding: 1rem;
+  margin: auto;
   background-color: var(--color-bg-pri);
   text-align: left;
 }
