@@ -1,15 +1,14 @@
 main {
-  background-color:var(--color-bg-pri);
-  font-family: var(--text-font-pri);
   flex-direction: column;
+  height: 100%;
   align-items: center;
   text-align: center;
-  height: 100%;
+  font-family: var(--text-font-pri);
+  background-color:var(--color-bg-pri);
 }
 
 .banner-container {
   height: auto;
-  margin: 1rem;
 }
 
 .banner-imagem {
@@ -17,61 +16,80 @@ main {
 }
  
 h1 {
+  display: flex;
+  text-align: left;
   margin: 2.5rem 2rem 0rem 2rem;
   text-decoration:underline;
-  color: var(--color-text-pri);
-  display: flex;
   font-weight: 700;
-  text-align: left;
   text-decoration-thickness: 4px;
   text-underline-offset: 6px;
+  color: var(--color-text-pri);
   text-decoration-color: var(--color-bg-sex);
 }
 
 .container_produtos {
-  margin: 2rem 1rem;
+  margin: 2rem 2rem;
 }
 
 .card-produto {
-  display: inline-block; /* Permite que os cards fiquem lado a lado */
-  align-items: center;
+  display: inline-block;
+  width: 192px;
+  height: 416px;
   margin: 1rem;
-  text-align: center;
-  
+  padding: 2rem 1.5rem;
+  border-radius: 0.25rem;
   background-color: white;
-  padding: 20px;
-  border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
    
 }
 
 .card-produto img {
-  width: 100%;
-  height: 200px; /* Ajuste a altura da imagem */
-  object-fit: cover; /* Mantenha a proporção da imagem */
-  margin-bottom: 15px;
+  width: 192px;
+  height: 192px;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
 }
 
 .card-produto h2 {
-  font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  font-size: 0.875em;
+  font-weight: 700;
+  color: var(--color-text-ter);
 }
 
 .card-produto p {
+  margin-bottom: 12px;
+  text-align: left;
   font-size: 14px;
-  color: #666;
-  margin-bottom: 15px;
+  line-height: 1.25em;
+  color: var(--color-text-ter);
 }
 
-.avaliacao i {
+.avaliacao {
+  display: inline-block;
+  margin: 0rem 2.5rem 0.5rem 0rem;
+  float: left;
+}
+
+.avaliacao img{
+  margin: 0%;
+  padding-right: 8px;
+  height: 16px;
+  width: 16px;
   color: #f0ad4e;
-  margin-right: 5px;
 }
 
-.preco {
+.preco_anterior {
   font-size: 16px;
   font-weight: bold;
-  margin-bottom: 15px;
+  text-align: left;  
+}
+
+.preco_atualizado {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
 }
 
 .card-produto button {
@@ -81,8 +99,9 @@ h1 {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 15px; /* Posicione o botão abaixo do conteúdo do card */
-  display: block; /* O botão ocupa toda a largura do card */
+  margin-top: 15px; 
+  display: block;
   width: 100%;
 
 }
+

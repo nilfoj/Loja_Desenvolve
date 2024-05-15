@@ -28,5 +28,6 @@
 
 body{
     /*margin: 0px 366px;*/
+    width: 100vw;
     background-color: var(--color-bg-qua);
 }
