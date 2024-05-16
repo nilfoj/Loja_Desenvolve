@@ -75,7 +75,6 @@ li{
 .lista-menu_texto{
   text-align: left;
   background-color: var(--color-bg-pri);
-  padding: 1rem;
   font-size: 0.75em;
 }
 

@@ -34,7 +34,7 @@ h1 {
 .card-produto {
   display: inline-block;
   width: 192px;
-  height: 416px;
+  height: 430px;
   margin: 1rem;
   padding: 2rem 1.5rem;
   border-radius: 0.25rem;
@@ -68,13 +68,13 @@ h1 {
 
 .avaliacao {
   display: inline-block;
-  margin: 0rem 2.5rem 0.5rem 0rem;
+  margin: 0rem 4rem 1rem 0rem;
   float: left;
 }
 
 .avaliacao img{
   margin: 0%;
-  padding-right: 8px;
+  padding-right: 4px;
   height: 16px;
   width: 16px;
   color: #f0ad4e;
@@ -82,8 +82,8 @@ h1 {
 
 .preco_anterior {
   font-size: 16px;
-  font-weight: bold;
-  text-align: left;  
+  text-align: left;
+  text-decoration: line-through;  
 }
 
 .preco_atualizado {
@@ -93,15 +93,22 @@ h1 {
 }
 
 .card-produto button {
-  background-color: #000;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 15px; 
   display: block;
   width: 100%;
-
+  margin-top: 15px; 
+  padding: 10px 20px;
+  border: solid var(--color-bg-set);
+  border-radius: 5px;
+  background-color: var(--color-bg-tec);
+  color: var(--color-text-ter);
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  
 }
 
+.card-produto button:hover{
+  background-color: var(--color-bg-set);
+  color: var(--color-bg-tec);
+  
+}
