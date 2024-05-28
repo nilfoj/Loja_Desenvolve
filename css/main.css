@@ -112,3 +112,10 @@ h1 {
   color: var(--color-bg-tec);
   
 }
+
+
+.banner-produtos {
+  background-color: var(--color-bg-qui);
+  width: auto;
+  height: 162px;
+}
