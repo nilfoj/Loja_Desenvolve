@@ -21,8 +21,8 @@ h1 {
   margin: 2.5rem 2rem 0rem 2rem;
   text-decoration:underline;
   font-weight: 700;
-  text-decoration-thickness: 4px;
-  text-underline-offset: 6px;
+  text-decoration-thickness: 0.25em;
+  text-underline-offset: 0.375em;
   color: var(--color-text-pri);
   text-decoration-color: var(--color-bg-sex);
 }
@@ -33,19 +33,19 @@ h1 {
 
 .card-produto {
   display: inline-block;
-  width: 192px;
-  height: 430px;
+  width: 12rem;
+  height: 26.8rem;
   margin: 1rem;
   padding: 2rem 1.5rem;
   border-radius: 0.25rem;
   background-color: white;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0rem 0.125rem 0.313rem rgba(0, 0, 0, 0.1);
    
 }
 
 .card-produto img {
-  width: 192px;
-  height: 192px;
+  width: 12rem;
+  height: 12rem;
   object-fit: cover;
   margin-bottom: 1.5rem;
 }
@@ -59,9 +59,9 @@ h1 {
 }
 
 .card-produto p {
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
   text-align: left;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.25em;
   color: var(--color-text-ter);
 }
@@ -74,20 +74,20 @@ h1 {
 
 .avaliacao img{
   margin: 0%;
-  padding-right: 4px;
-  height: 16px;
-  width: 16px;
+  padding-right: 0.25rem;
+  height: 1rem;
+  width: 1rem;
   color: #f0ad4e;
 }
 
 .preco_anterior {
-  font-size: 16px;
+  font-size: 1rem;
   text-align: left;
   text-decoration: line-through;  
 }
 
 .preco_atualizado {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   text-align: left;
 }
@@ -95,10 +95,10 @@ h1 {
 .card-produto button {
   display: block;
   width: 100%;
-  margin-top: 15px; 
-  padding: 10px 20px;
+  margin-top: 1rem; 
+  padding: 0.625rem 1.25rem;
   border: solid var(--color-bg-set);
-  border-radius: 5px;
+  border-radius: 0.313rem;
   background-color: var(--color-bg-tec);
   color: var(--color-text-ter);
   font-weight: bold;
@@ -117,5 +117,5 @@ h1 {
 .banner-produtos {
   background-color: var(--color-bg-qui);
   width: auto;
-  height: 162px;
+  height: 10.125rem;
 }
