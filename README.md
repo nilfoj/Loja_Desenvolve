@@ -1,4 +1,4 @@
-.<h1>🗂️ Projeto Loja Desenvolve</h1>
+<h1>🗂️ Projeto Loja Desenvolve</h1>
 
 #
 
