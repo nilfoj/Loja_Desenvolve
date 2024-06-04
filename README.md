@@ -1,4 +1,4 @@
-<h1>🗂️ Projeto Loja Desenvolve</h1>
+.<h1>🗂️ Projeto Loja Desenvolve</h1>
 
 #
 
@@ -12,7 +12,7 @@ O primeiro projeto da trilha de estudos Desenvolve Boticário, com o objetivo de
 
 💻 Aplicação
 
-O projeto segue em desenvolvimento e logo mais será disponibilizado o link de acesso.
+O projeto segue em desenvolvimento e aplicação de melhorias, mas já pode ser acessado: [Loja Desenvolve](https://nilfoj.github.io/Loja_Desenvolve/).
 
 <h3>Preview</h3>
 
