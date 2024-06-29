@@ -3,6 +3,8 @@ main {
   height: 100%;
   align-items: center;
   text-align: center;
+  max-width: 1170px;
+  margin: auto;
   font-family: var(--text-font-pri);
   background-color:var(--color-bg-pri);
 }
@@ -69,7 +71,6 @@ h1 {
 .avaliacao {
   display: inline-block;
   margin: 0rem 4rem 1rem 0rem;
-  float: left;
 }
 
 .avaliacao img{
@@ -116,6 +117,7 @@ h1 {
 
 .banner-produtos {
   background-color: var(--color-bg-qui);
-  width: auto;
-  height: 10.125rem;
+  max-width: 1170px;
+  margin: auto;
 }
+

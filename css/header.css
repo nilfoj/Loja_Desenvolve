@@ -1,6 +1,8 @@
 header {
   background-color:var(--color-bg-pri);
   font-family: var(--text-font-pri);
+  max-width: 1170px;
+  margin: auto;
 }
 
 
@@ -106,11 +108,11 @@ li{
 
 .barra-pesquisa {
   background-color: transparent;
-  width: 92%;
+  width: 100%;
   border: 0.125rem solid var(--color-bg-qui);
   border-radius: 0.5rem;
+  margin: 0.1rem;
   padding: 1rem;
-  margin: 0rem 1rem 1rem 1rem;
 
 }
 
@@ -125,9 +127,9 @@ li{
 /*Localização*/
 
 .localizacao {
-  display: block;
+  text-align: center;
   align-items: center;
-  padding: 0rem 0.5rem 0.5rem 0.5rem;
+  margin: 1rem;
 }
 
 .localizacao > img {
@@ -139,4 +141,20 @@ li{
   text-decoration: none;
   color: var(--text-font-ter);
   font-size: 0.75em;
+}
+
+
+/* Media */
+
+@media (max-width: 768px) {
+    .pesquisa {
+      width: 90%;
+    }
+}
+
+@media (max-width: 400px) {
+    .barra-pesquisa::placeholder{
+        background: none;
+        padding: 0%;
+    }
 }
